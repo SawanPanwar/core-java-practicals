@@ -44,4 +44,20 @@ public class Exercise {
 
 	}
 
+	public static void arrayIndex(int[] arr, int a) {
+
+		int index = -1;
+
+		for (int i = 0; i < arr.length; i++) {
+
+			if (arr[i] == a) {
+				index = i;
+			}
+
+		}
+
+		System.out.println("index = " + index);
+
+	}
+
 }
