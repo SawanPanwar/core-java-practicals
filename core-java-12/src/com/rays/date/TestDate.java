@@ -8,6 +8,6 @@ public class TestDate {
 
 		Date today = new Date();
 
-		System.out.println(today);
+		System.out.println(today.getTime());
 	}
 }
