@@ -1,4 +1,4 @@
-package com.rays.abs;
+package com.rays.oop.abs;
 
 public class TestShape {
 
