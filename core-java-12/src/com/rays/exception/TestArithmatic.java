@@ -9,7 +9,7 @@ public class TestArithmatic {
 		try {
 			int a = 20;
 
-			int b = 4;
+			int b = 2;
 
 			int c = a / b;
 
@@ -19,6 +19,10 @@ public class TestArithmatic {
 
 			System.out.println("Exception: " + e.getMessage());
 
+			System.exit(0);
+
+		} finally {
+			System.out.println("finally block");
 		}
 
 		System.out.println("after");
