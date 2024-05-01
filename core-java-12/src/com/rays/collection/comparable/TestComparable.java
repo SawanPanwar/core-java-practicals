@@ -15,7 +15,7 @@ public class TestComparable {
 		list.add(new Employee(1, "riya", 2500));
 		list.add(new Employee(4, "riya", 1200));
 		list.add(new Employee(3, "ajay", 5000));
-		
+
 		Collections.sort(list);
 
 		for (Object object : list) {

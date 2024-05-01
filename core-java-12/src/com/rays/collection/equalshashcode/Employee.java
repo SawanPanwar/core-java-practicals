@@ -29,6 +29,14 @@ public class Employee {
 
 		System.out.println("in equals method");
 
+		if (obj == null) {
+			return false;
+		}
+
+		if (!(obj instanceof Employee)) {
+			return false;
+		}
+
 		Employee e = (Employee) obj;
 
 		boolean b = this.id == e.id && this.name == e.name && this.salary == e.salary;
