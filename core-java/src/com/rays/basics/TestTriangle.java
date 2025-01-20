@@ -8,7 +8,7 @@ public class TestTriangle {
 
 			for (int j = 1; j <= i; j++) { // columns
 
-				System.out.print(j + "\t");
+				System.out.print(i + "\t");
 
 			}
 			System.out.println();
