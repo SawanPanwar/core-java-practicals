@@ -5,15 +5,20 @@ public class MyClass {
 	// basic building block, structure of an Object, contains variables, methods,
 	// constructors
 
-	String name;
-	int age;
+	public String name; // instance variable
+	public int age; // instance variable
+	public String firstName; // instance variable
+
+	public static int averageAge; // class variable && static variable
+
+	public static final int NO_OF_GEARS = 6; // constants
 
 	public void details() {
 		System.out.println("name: " + name);
 		System.out.println("age: " + age);
 	}
 
-	public void sum(int a, int b) {
+	public void sum(int a, int b) { // local variable
 		int c = a + b;
 		System.out.println("sum: " + c);
 	}
@@ -84,5 +89,9 @@ public class MyClass {
 			}
 			System.out.println();
 		}
+	}
+
+	public static void testMethod() {
+		System.out.println("test method");
 	}
 }
