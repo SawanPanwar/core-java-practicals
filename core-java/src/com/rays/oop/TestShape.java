@@ -1,5 +1,7 @@
 package com.rays.oop;
 
+import com.rays.oop.Shape;
+
 public class TestShape {
 
 	public static void main(String[] args) {
