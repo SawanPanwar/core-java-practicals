@@ -36,7 +36,6 @@ public class TryCatchFinally {
 			e.printStackTrace();
 
 		} finally {
-
 			System.out.println("finally block");
 		}
 	}
