@@ -22,6 +22,8 @@ public class TryCatchFinally {
 			System.out.println(e);
 			System.out.println(e.getMessage());
 			e.printStackTrace();
+			
+			System.exit(0);
 
 		} catch (NullPointerException e) {
 
