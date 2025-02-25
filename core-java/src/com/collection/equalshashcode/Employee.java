@@ -29,6 +29,11 @@ public class Employee {
 
 	@Override
 	public boolean equals(Object obj) {
+
+		if (!(obj instanceof Employee)) {
+			return false;
+		}
+
 		Employee emp = (Employee) obj;
 		return this.id == emp.id && this.name == emp.name && this.salary == emp.salary;
 	}
