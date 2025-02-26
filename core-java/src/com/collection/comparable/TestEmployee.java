@@ -10,11 +10,11 @@ public class TestEmployee {
 
 		List list = new ArrayList();
 
-		list.add(new Employee(1, "riya", 100));
+		list.add(new Employee(5, "riya", 100));
 		list.add(new Employee(2, "abhi", 900));
-		list.add(new Employee(3, "bharat", 500));
-		list.add(new Employee(4, "satya", 200));
-		list.add(new Employee(5, "chetan", 300));
+		list.add(new Employee(5, "bharat", 500));
+		list.add(new Employee(3, "satya", 200));
+		list.add(new Employee(4, "chetan", 300));
 
 		Collections.sort(list);
 

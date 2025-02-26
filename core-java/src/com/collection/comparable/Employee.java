@@ -26,8 +26,13 @@ public class Employee implements Comparable<Employee> {
 
 		System.out.println("this: " + this.id + " e: " + e.id + " diff: " + diff);
 
-		return this.id - e.id;
+		// return this.id - e.id;
 
 		// return e.name.compareTo(this.name);
+
+		if (this.id == e.id) {
+			return e.name.compareTo(this.name);
+		}
+		return this.id - e.id;
 	}
 }
