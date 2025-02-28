@@ -15,8 +15,10 @@ public class TestIncDecOperator {
 		// int sum = --i + --i + --i + --i + --i;
 		// 0 + -1 + -2 + -3 + -4
 
-		int sum = i-- + i + ++i + i++ + i + --i;
-		//        1   + 0 +   1 + 1   + 2 +   1
+		/* int sum = i-- + i + ++i + i++ + i + --i; */
+		// 1 + 0 + 1 + 1 + 2 + 1
+
+		int sum = i++ + ++i + i-- + i-- + ++i + ++i + i + i--;
 
 		System.out.println("sum: " + sum);
 	}
