@@ -18,7 +18,6 @@ public class TestBinary {
 			out.write(ch);
 
 			ch = in.read();
-
 		}
 		out.close();
 		in.close();
