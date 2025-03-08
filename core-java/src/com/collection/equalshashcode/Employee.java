@@ -29,6 +29,8 @@ public class Employee {
 
 	@Override
 	public boolean equals(Object obj) {
+		
+		System.out.println("equals");
 
 		if (!(obj instanceof Employee)) {
 			return false;
@@ -40,6 +42,7 @@ public class Employee {
 
 	@Override
 	public int hashCode() {
+		System.out.println("hashCode");
 		String str = id + " " + name + " " + salary;
 		return str.hashCode();
 	}
